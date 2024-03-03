@@ -4,32 +4,29 @@ const Navbar = () =>{
 const activeStyle = 'underline underline-offset-4'
 
     return(
-<header className="bg-white shadow-md py-4">
-    <nav className="container mx-auto flex justify-between items-center">
-        <ul className="flex items-center justify-center">
+<header className="bg-gradient-to-r from-teal-400 to-blue-500 shadow-md py-4 fixed top-0 w-full z-10">
+    <nav className="container mx-auto flex justify-center items-center">
+        <ul className="flex items-center justify-center space-x-8">           
             <li>
-                <NavLink to='/' className="text-gray-700 hover:text-gray-900 mr-6">
-                Buscar Restaturantes
+                <NavLink to='/developers' className="text-white hover:text-gray-100 transition duration-300 ease-in-out">
+                    DEVELOPERS
                 </NavLink>
             </li>
             <li>
-                <NavLink to='/stores' className="text-gray-700 hover:text-gray-900 mr-6">
-                Información Restaurantes
+                <NavLink to='/projects' className="text-white hover:text-gray-100 transition duration-300 ease-in-out">
+                    PROJECTS
                 </NavLink>
             </li>
             <li>
-                <NavLink to='/projects' className="text-gray-700 hover:text-gray-900 mr-6">
-                Información Proyecto
-                </NavLink>
-            </li>
-            <li>
-                <NavLink to='/about_me' className="text-gray-700 hover:text-gray-900">
-                    About me
+                <NavLink to='/about_me' className="text-white hover:text-gray-100 transition duration-300 ease-in-out">
+                    ABOUT ME
                 </NavLink>
             </li>
         </ul>
     </nav>
 </header>
+
+
 
 
     )
