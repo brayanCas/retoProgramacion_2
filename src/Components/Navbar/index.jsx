@@ -9,25 +9,27 @@ const activeStyle = 'underline underline-offset-4'
         <ul className="flex items-center justify-center space-x-8">           
             <li>
                 <NavLink to='/developers' className="text-white hover:text-gray-100 transition duration-300 ease-in-out">
-                    DEVELOPERS
+                    DESARROLLADORES
                 </NavLink>
             </li>
             <li>
                 <NavLink to='/projects' className="text-white hover:text-gray-100 transition duration-300 ease-in-out">
-                    PROJECTS
+                    PROYECTOS
                 </NavLink>
             </li>
             <li>
                 <NavLink to='/about_me' className="text-white hover:text-gray-100 transition duration-300 ease-in-out">
-                    ABOUT ME
+                    SOBRE MÍ
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to='/contact' className="text-white hover:text-gray-100 transition duration-300 ease-in-out">
+                   CONTACTO
                 </NavLink>
             </li>
         </ul>
     </nav>
 </header>
-
-
-
 
     )
 }

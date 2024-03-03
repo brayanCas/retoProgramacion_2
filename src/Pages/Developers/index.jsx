@@ -1,9 +1,7 @@
 
-// import Tutorials from '../Tutorials';
-import Slider from 'react-slick'; //create carrousel functionality
+import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-import StoresRandoom from '../../Components/Stores';
 import { FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const settings={
@@ -71,7 +69,7 @@ export default function Developers() {
     <>
 <div className="min-h-screen flex flex-col">
   <div className="flex-grow bg-gradient-to-r from-blue-400 to-indigo-500 text-white p-8">
-    <h1 className="text-4xl font-bold mb-4 mt-9">Developers</h1>
+    <h1 className="text-4xl font-bold mb-4 mt-9">DESARROLLADORES</h1>
     <hr className="border-white border-b-2 mb-6" />
     <div className="container mx-auto mt-9"> 
       <Slider {...settings} className="mt-9"> 
@@ -105,8 +103,6 @@ export default function Developers() {
     </div>
   </div>  
 </div>
-
-
     </>
   );
 }

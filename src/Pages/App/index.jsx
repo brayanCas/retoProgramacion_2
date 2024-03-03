@@ -6,6 +6,7 @@ import Projects from '../Projects';
 import About_Me from '../About_Me';
 import './App.css'
 import Footer from '../../Components/Footer';
+import Contact from '../Contact';
 
 const AppRoutes = () => {
   let routes = useRoutes([
@@ -13,6 +14,7 @@ const AppRoutes = () => {
     { path: '/Developers', element: <Developers /> },    
     { path: '/Projects', element: <Projects /> },    
     { path: '/About_Me', element: <About_Me /> },
+    { path: '/Contact', element: <Contact /> },
   ])
   return routes
 }
